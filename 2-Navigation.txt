@@ -1,3 +1,5 @@
+# Concepts addressed:prompt, shell, directory
+
 ~/command-line-1-4-tliapis$ pwd
 /home/runner/command-line-1-4-tliapis
 ~/command-line-1-4-tliapis$ ls
