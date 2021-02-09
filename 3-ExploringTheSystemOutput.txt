@@ -1,1 +1,38 @@
+#concepts addressed (prompt, shell)
 
+~/command-line-1-4-WyattGracz$ ls
+1-WhatIsTheShell.txt  2-Navigation.txt  3-ExploringTheSystemOutput.txt  4-ManipulatingFilesAndDirectories.txt  README.md
+~/command-line-1-4-WyattGracz$ ls /usr
+bin  doc  games  include  lib  lib32  libexec  local  sbin  share  src
+~/command-line-1-4-WyattGracz$ ls ~ /usr
+/home/runner:
+command-line-1-4-WyattGracz  _test_runner.py
+
+/usr:
+bin  doc  games  include  lib  lib32  libexec  local  sbin  share  src
+~/command-line-1-4-WyattGracz$ ls -l
+total 44
+-rw-r--r-- 1 runner runner  1580 Feb  4 21:03 1-WhatIsTheShell.txt
+-rw-r--r-- 1 runner runner 29883 Feb  4 21:03 2-Navigation.txt
+-rw-r--r-- 1 runner runner     0 Feb  9 20:18 3-ExploringTheSystemOutput.txt
+-rw-r--r-- 1 runner runner  2843 Feb  4 21:04 4-ManipulatingFilesAndDirectories.txt
+-rw-r--r-- 1 runner runner   246 Feb  4 20:10 README.md
+~/command-line-1-4-WyattGracz$ ls -lt
+total 44
+-rw-r--r-- 1 runner runner     0 Feb  9 20:18 3-ExploringTheSystemOutput.txt
+-rw-r--r-- 1 runner runner  2843 Feb  4 21:04 4-ManipulatingFilesAndDirectories.txt
+-rw-r--r-- 1 runner runner 29883 Feb  4 21:03 2-Navigation.txt
+-rw-r--r-- 1 runner runner  1580 Feb  4 21:03 1-WhatIsTheShell.txt
+-rw-r--r-- 1 runner runner   246 Feb  4 20:10 README.md
+~/command-line-1-4-WyattGracz$ ls -lt --reverse
+total 44
+-rw-r--r-- 1 runner runner   246 Feb  4 20:10 README.md
+-rw-r--r-- 1 runner runner  1580 Feb  4 21:03 1-WhatIsTheShell.txt
+-rw-r--r-- 1 runner runner 29883 Feb  4 21:03 2-Navigation.txt
+-rw-r--r-- 1 runner runner  2843 Feb  4 21:04 4-ManipulatingFilesAndDirectories.txt
+-rw-r--r-- 1 runner runner     0 Feb  9 20:18 3-ExploringTheSystemOutput.txt
+~/command-line-1-4-WyattGracz$ file picture.jpg
+picture.jpg: cannot open `picture.jpg' (No such file or directory)
+~/command-line-1-4-WyattGracz$ less /etc/passwd
+bash: less: command not found
+~/command-line-1-4-WyattGracz$ exit
