@@ -1042,4 +1042,12 @@ README.md
  zipinfo
  zipnote
  zipsplit
- 
+ /usr/bin$ cd ..
+/usr$ pwd
+/usr
+/usr$ cd ./bin
+/usr/bin$ pwd
+/usr/bin
+/usr/bin$ cd ..
+/usr$ cd bin
+/usr/bin$ 
